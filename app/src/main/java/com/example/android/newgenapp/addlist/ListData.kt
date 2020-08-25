@@ -1,6 +1,5 @@
 package com.example.android.newgenapp.addlist
 
-import android.provider.ContactsContract
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey

@@ -6,12 +6,12 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 
 @Database(entities = [ListData::class],version = 1)
-abstract class ListDatabase :RoomDatabase() {
+abstract class ListDatabase:RoomDatabase(){
 
     companion object {
         @Volatile
-        private var model: ListDatabase? = null
-        fun getDatabase(context: Context): ListDatabase? {
+        private var model: ListDatabase?=null
+        fun getDatabase(context: Context):ListDatabase? {
             synchronized(this) {
                 var _model = model
 
@@ -29,5 +29,5 @@ abstract class ListDatabase :RoomDatabase() {
             }
         }
     }
-    abstract val ListDAO:ListDAO
+   abstract val ListDAO:ListDAO
 }
