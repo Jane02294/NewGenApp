@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">NewGenApp</string>
+    <string name="nav_aboutme">About Me</string>
+    <string name="nav_contact">Contact</string>
 </resources>

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="Item" />
+    <item
+        android:id="@+id/nav_aboutme"
+        android:title="@string/nav_aboutme" />
+    <item
+        android:id="@+id/nav_contact"
+        android:title="@string/nav_contact" />
 </menu>
