@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
                 supportFragmentManager.beginTransaction().replace(R.id.fragment_contain,ContactFragment()).commit()
             }
             R.id.nav_list -> {
-                supportFragmentManager.beginTransaction().replace(R.id.fragment_contain,ListFragment()).commit()
+                supportFragmentManager.beginTransaction().replace(R.id.fragment_contain,AddListFragment()).commit()
             }
         }
         return true
