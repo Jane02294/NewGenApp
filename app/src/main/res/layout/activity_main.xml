@@ -14,14 +14,7 @@
         <FrameLayout
             android:id="@+id/fragment_contain"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/ddrtdt" />
-        </FrameLayout>
+            android:layout_height="match_parent"/>
 
         <com.google.android.material.navigation.NavigationView
             android:id="@+id/nav_view"
