@@ -31,26 +31,83 @@
         tools:ignore="MissingConstraints" />
 
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="276dp"
+        android:text="ชื่อ : นางสาวกรกมล ปัญญายงค์"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="12dp"
+        android:text="ชื่อเล่น : เจน"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="310dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="4dp"
+        android:text="ที่อยู่ : 41 หมู่ 7 ต.ตาจง อ.ละหานทราย จ.บุรีรัมย์ 31170"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.732"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="MissingConstraints,UnknownId" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="319dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="80dp"
+        android:text="ขายเมนูน้ำผลไม้และผักที่ปลอดสารพิษ"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:ignore="MissingConstraints,UnknownId" />
+
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="135dp"
         android:layout_height="164dp"
+        android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.847"
+        app:layout_constraintHorizontal_bias="0.829"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:layout_constraintVertical_bias="0.822"
-        app:srcCompat="@drawable/dd" />
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/dd"
+        tools:ignore="UnknownId" />
 
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="144dp"
         android:layout_height="164dp"
+        android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView7"
-        app:layout_constraintHorizontal_bias="0.422"
+        app:layout_constraintHorizontal_bias="0.455"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintVertical_bias="0.822"
         app:srcCompat="@drawable/dd" />
 </androidx.constraintlayout.widget.ConstraintLayout>
