@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.system.Os.close
 import android.system.Os.open
+import android.view.MenuItem
 import androidx.appcompat.app.ActionBarDrawerToggle
+import androidx.appcompat.view.ActionMode
 import androidx.databinding.DataBindingUtil
 import androidx.drawerlayout.widget.DrawerLayout
 import com.example.android.newgenapp.databinding.ActivityMainBinding
@@ -27,6 +29,14 @@ class MainActivity : AppCompatActivity() {
         drawer_layout.addDrawerListener(toggle)
         toggle.syncState()
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+    }
 
+     fun onSupportNavigateUp(item:MenuItem): Boolean {
+        when(item.itemId){
+            R.id.nav_aboutme -> {
+                supportFragmentManager.beginTransaction().replace(R.id.fragment_contain,AboutmeFragment())
+            }
+        }
+        return true
     }
 }
