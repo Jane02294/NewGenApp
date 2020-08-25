@@ -14,4 +14,3 @@ interface ListDAO {
     @Query("select * from listTable order by id desc")
     fun getList():LiveData<List<ListData>>
 }
-
